@@ -20,14 +20,14 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 " ランダムな値n(min =< n =< max)を返す.
-function! GetRandom(min, max)
+function! amatatsu#getRandom(min, max)
   " 余りの最大値は分母から1を引いた値になる.
   return reltime()[1] % (a:max - a:min + 1) + a:min
 endfunction
 
-function! AmatatsuRandom()
+function! amatatsu#amatatsuRandom()
   :let weather_list = ["Sunny","Cloudy","Rainy","Snowy", "Amatatsu"]
-  :let index = GetRandom(0, 4)
+  :let index = amatatsu#getRandom(0, 4)
   echo weather_list[index]
 endfunction
 
