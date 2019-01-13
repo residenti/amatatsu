@@ -26,7 +26,7 @@ function! amatatsu#getRandom(min, max)
 endfunction
 
 function! amatatsu#amatatsuRandom()
-  :let weather_list = ["Sunny","Cloudy","Rainy","Snowy", "Amatatsu"]
+  :let weather_list = ["Sunny☀️","Cloudy☁️","Rainy☔️","Snowy❄️", "Amatatsu👦"]
   :let index = amatatsu#getRandom(0, 4)
   echo weather_list[index]
 endfunction
