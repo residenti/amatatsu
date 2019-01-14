@@ -26,9 +26,9 @@ function! amatatsu#getRandom(min, max)
 endfunction
 
 function! amatatsu#amatatsuRandom()
-  :let weather_list = ["Sunny☀️","Cloudy☁️","Rainy☔️","Snowy❄️", "Amatatsu👦"]
-  :let index = amatatsu#getRandom(0, 4)
-  echo weather_list[index]
+  :let l:weather_list = ["Sunny☀️","Cloudy☁️","Rainy☔️","Snowy❄️", "Amatatsu👦"]
+  :let l:index = amatatsu#getRandom(0, 4)
+  echo l:weather_list[l:index]
 endfunction
 
 " 退避していたユーザ設定を戻す.
