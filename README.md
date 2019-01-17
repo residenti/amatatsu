@@ -1,6 +1,10 @@
 # amatatsu
-現在のお天気を`Sunny☀️"`,`Cloudy☁️`,`Rainy☔️`,`Snowy❄️`, `Amatatsu👦`の内から1つランダムに表示します。
-表示された天気は1/5の確率で当たっています。
+
+amatatsu will display one current weather __randomly__ from `Sunny☀️"`,`Cloudy☁️`,`Rainy☔️`,`Snowy❄️`, `Amatatsu👦`.
+
+![amatatsu_demo](https://github.com/residenti/amatatsu/blob/media/amatatsu_demo.gif)
 
 # useage
-ノーマルモードでzキーを押してください。
+
+press the z key in normal mode.
+
